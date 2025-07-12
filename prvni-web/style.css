@@ -1,4 +1,15 @@
-h1, h2 {
+body {
+    font-family: Verdana;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: #0a294b;
+    font-family: Arial;
+}
+.centrovany {
+    text-align: center;
 }
