@@ -1,14 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-ExtraBold.ttf);
+    font-weight: bold;
+}
 body {
-    font-family: Verdana;
+    font-family: Poppins;
+    font-size: 14px;;
     background-color: #f0f8ff;
-    color: #333;
+    color: #414042;
     margin: 0;
     padding: 20px;
 }
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: #0a294b;
-    font-family: Arial;
+}
+h2  {
+    font-size: 1.7em;
+    text-shadow: 2px 2px 0 #88abd1, 3px 3px 7px #666666;
 }
 .centrovany {
     text-align: center;
